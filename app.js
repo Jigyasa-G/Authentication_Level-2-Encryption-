@@ -4,7 +4,11 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const ejs = require('ejs');
 const mongoose = require('mongoose');
-const encrypt = require('mongoose-encryption');
+
+// Level 2 - ENCRYPTION
+// const encrypt = require('mongoose-encryption');
+
+// Level 3 - HASHING
 const md5 = require('md5');
 
 const app = express();
